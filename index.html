@@ -17,27 +17,48 @@
     <main>
         <!--Main Artikel-->
         <article>
-            <p>Selamat datang di Kalkulator BMI, alat sederhana dan praktis untuk menghitung Indeks Massa Tubuh (BMI) Anda! BMI adalah metode yang digunakan untuk menentukan apakah berat badan Anda berada dalam kategori sehat berdasarkan tinggi badan dan berat badan. Dengan desain yang mudah digunakan, Anda cukup memasukkan data tinggi badan dan berat badan Anda, dan kalkulator kami akan memberikan hasil serta informasi terkait kategori BMI Anda, seperti underweight, normal, overweight, atau obesitas. Selain itu, kami juga menyediakan tips kesehatan untuk membantu Anda menjaga berat badan ideal dan hidup lebih sehat. Mulai sekarang, cek BMI Anda dengan cepat dan akurat di sini!</p>
+            <p>Selamat datang di Kalkulator BMI, alat praktis untuk mengetahui apakah berat badan Anda ideal berdasarkan tinggi dan berat badan. Cukup masukkan data Anda, dan kami akan menghitung BMI serta memberikan informasi kategori kesehatan Anda. Dengan antarmuka sederhana, Anda bisa langsung cek dan mulai hidup lebih sehat sekarang juga</p>
         </article>
 
 
-        <form>
-            <p style="font-size: large;">Jenis Kelamin</p>
+        <form> 
+            <!--Jenis Kelamin-->           
             <label>
+                Jenis Kelamin
                 <input type="radio" name="gender" value="Pria" required>
                 Pria
-            </label>
-            <br>
-            <label>
                 <input type="radio" name="gender" value="Wanita">
                 Wanita
             </label>
 
+            <!--Usia-->
+            <div>
+                <label>
+                    Usia (tahun)
+                </label>
+                <input id="input-usia" />
+            </div>
+
+            <!--Tinggi Badan-->
+            <div>
+                <label>
+                    Tinggi Badan (cm)
+                </label>
+                <input id="input-tinggi-badan" />
+            </div>
+
+            <!--Berat Badan-->
             <div>
                 <label>
                     Berat Badan (kg)
                 </label>
                 <input id="input-berat-badan" />
+            </div>
+
+            <!--Kirim/Reset-->
+            <div>
+                <button>Hitung BMI</button>
+                <button>Reset</button>
             </div>
         </form>
     </main>
