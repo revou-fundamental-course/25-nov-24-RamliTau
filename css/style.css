@@ -1,3 +1,37 @@
 /* File CSS */
 
-.judul_input{font-weight: bold;font-style: normal;font-size: large}
+.main-header{
+    text-align: center;
+}
+
+.gender-container {
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .gender-options {
+    display: flex;
+    gap: 10px;
+  }
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+article{
+    text-align: justify;
+}
+
+.form-style{
+    background-color: aquamarine;
+}
+
+section{
+    width: 40%;
+}
+
+footer{
+    text-align: center;
+}

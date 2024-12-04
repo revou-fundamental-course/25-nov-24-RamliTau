@@ -9,7 +9,7 @@
 
 <body>
     <!-- Judul Website -->
-    <header>
+    <header class="main-header">
         <h1>Kalkulator BMI</h1>
     </header>
 
@@ -24,13 +24,17 @@
 
       <form> 
             <!--Jenis Kelamin-->           
-            <label>
-                Jenis Kelamin
-                <input type="radio" name="gender" value="Pria" required>
-                Pria
-                <input type="radio" name="gender" value="Wanita">
-                Wanita
-            </label>
+            <fieldset class="gender-container">
+                <legend>Jenis Kelamin</legend>
+                <div class="gender-options">
+                  <label>
+                    <input type="radio" name="gender" value="Pria"> Pria
+                  </label>
+                  <label>
+                    <input type="radio" name="gender" value="Wanita"> Wanita
+                  </label>
+                </div>
+              </fieldset>
 
             <!--Usia-->
             <div>
@@ -62,6 +66,9 @@
                 <button>Reset</button>
             </div>
         <!--Second Article-->
+            <article>
+                <h3>Keunggulan fitur</h3>
+            </article>
         </form>   
     </section>
         
