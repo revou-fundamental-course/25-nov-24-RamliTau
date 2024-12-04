@@ -1,90 +1,123 @@
-/* File CSS */
-
-.main-header{
-    text-align: center;
+/* ==============================
+   Gaya untuk Header Utama
+   ============================== */
+   .main-header{
+    text-align: center; /* Menyusun teks di tengah */
 }
 
+/* ==============================
+   Gaya untuk Formulir Jenis Kelamin
+   ============================== */
 .gender-container {
-    border: none;
-    padding: 0;
-    margin-bottom: 10px;
+    border: none; /* Menghapus border pada container */
+    padding: 0; /* Menghapus padding di dalam container */
+    margin-bottom: 10px; /* Memberikan jarak bawah */
 }
 
 .gender-options {
-    display: flex;
-    gap: 10px;
+    display: flex; /* Menyusun elemen secara horizontal */
+    gap: 10px; /* Memberikan jarak antar elemen */
 }
 
+/* ==============================
+   Gaya untuk Fieldset (Grup Formulir)
+   ============================== */
 fieldset {
-    border: 1px solid #ccc;
-    padding: 15px;
-    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Memberikan border abu-abu tipis pada fieldset */
+    padding: 15px; /* Memberikan padding di dalam fieldset */
+    margin-bottom: 20px; /* Memberikan jarak bawah antara fieldset */
 }
 
+/* ==============================
+   Gaya untuk Legend (Judul Fieldset)
+   ============================== */
 legend {
-    font-weight: bold;
-    font-size: 1.0em;
+    font-weight: bold; /* Menebalkan teks */
+    font-size: 1.0em; /* Menentukan ukuran font */
 }
 
+/* ==============================
+   Gaya untuk Label dan Input Formulir
+   ============================== */
 .form-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+    display: block; /* Menyusun label dalam satu baris */
+    margin-bottom: 5px; /* Memberikan jarak bawah antar label dan input */
+    font-weight: bold; /* Menebalkan teks label */
 }
 
 .form-group input {
-    width: 100%;
-    padding: 4px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    width: 100%; /* Membuat input mengisi seluruh lebar */
+    padding: 4px; /* Memberikan padding di dalam input */
+    font-size: 14px; /* Menentukan ukuran font */
+    border: 1px solid #ccc; /* Memberikan border abu-abu pada input */
+    border-radius: 4px; /* Memberikan sudut tumpul pada input */
 }
 
-.form-actions {
-    margin-top: 20px;
-    display: flex;
-    gap: 10px;
+/* ==============================
+   Gaya untuk Tombol Hitung dan Reset
+   ============================== */
+   .form-actions button {
+    padding: 10px 15px; /* Memberikan padding pada tombol */
+    font-size: 14px; /* Menentukan ukuran font pada tombol */
+    border: none; /* Menghapus border tombol */
+    border-radius: 4px; /* Memberikan sudut tumpul pada tombol */
+    cursor: pointer; /* Menambahkan cursor pointer saat tombol di-hover */
 }
 
-.form-actions button {
-    padding: 10px 15px;
-    font-size: 14px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+/* Tombol Hitung - Background Biru */
+.form-actions button[type="submit"] {
+    background-color: #007bff; /* Warna latar belakang biru */
+    color: white; /* Teks berwarna putih */
 }
 
-/* Mengatur gaya kotak form */
-form {
-    max-width: 400px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #d3cccc; /* Warna latar belakang yang lembut */
-    border-radius: 10px; /* Membuat sudut tumpul */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan efek bayangan */
+/* Tombol Hitung - Hover Efek */
+.form-actions button[type="submit"]:hover {
+    background-color: #0056b3; /* Warna latar belakang biru lebih gelap saat hover */
 }
 
-.form-actions button:hover {
-    background-color: #ddd;
+/* Tombol Reset - Background Merah */
+.form-actions button[type="reset"] {
+    background-color: #dc3545; /* Warna latar belakang merah */
+    color: white; /* Teks berwarna putih */
 }
 
+/* Tombol Reset - Hover Efek */
+.form-actions button[type="reset"]:hover {
+    background-color: #c82333; /* Warna latar belakang merah lebih gelap saat hover */
+}
+
+/* ==============================
+   Gaya untuk Main (Tata Letak Utama)
+   ============================== */
 main{
-    display: flex;
-    justify-content: space-evenly;
+    display: flex; /* Menyusun elemen dalam satu baris */
+    justify-content: space-evenly; /* Memberikan jarak yang merata antar elemen */
 }
 
+/* ==============================
+   Gaya untuk Artikel
+   ============================== */
 article{
-    text-align: justify;
+    text-align: justify; /* Menyusun teks agar rata kiri-kanan */
 }
 
+/* ==============================
+   Gaya untuk Formulir dengan Gaya Khusus
+   ============================== */
 .form-style{
-    background-color: aquamarine;
+    background-color: aquamarine; /* Memberikan warna latar belakang aquamarine pada form */
 }
 
+/* ==============================
+   Gaya untuk Section (Bagian Formulir)
+   ============================== */
 section{
-    width: 40%;
+    width: 40%; /* Memberikan lebar 40% pada section */
 }
 
+/* ==============================
+   Gaya untuk Footer
+   ============================== */
 footer{
-    text-align: center;
+    text-align: center; /* Menyusun teks footer di tengah */
 }
