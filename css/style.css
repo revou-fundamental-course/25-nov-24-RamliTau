@@ -15,6 +15,23 @@
     gap: 10px;
   }
 
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.0em;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
 main{
     display: flex;
     justify-content: space-evenly;
