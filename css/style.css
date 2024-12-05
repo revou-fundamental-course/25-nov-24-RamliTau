@@ -156,6 +156,16 @@ input::placeholder {
 }
 
 /* ==============================
+   Gaya Hasil
+   ============================== */
+#info-hasil {
+ font-weight: bold; /* Membuat teks tebal */
+ font-size: 16px;   /* (Opsional) Ukuran font lebih besar */
+ color: #333;       /* (Opsional) Warna teks */
+}
+
+
+/* ==============================
    Gaya untuk Main (Tata Letak Utama)
    ============================== */
 main{
