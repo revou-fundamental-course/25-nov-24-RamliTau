@@ -164,6 +164,25 @@ input::placeholder {
  color: #333;       /* (Opsional) Warna teks */
 }
 
+.result-box {
+    background-color: #dbd3d3; /* Warna latar serupa dengan form */
+    border: 1px solid #ccc;   /* Border abu-abu */
+    border-radius: 10px;      /* Sudut melengkung */
+    padding: 20px;            /* Ruang di dalam kotak */
+    margin-top: 20px;         /* Jarak dengan elemen di atas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+  
+.result-box p {
+    font-size: 16px;          /* Ukuran teks */
+    margin: 10px 0;           /* Jarak antar paragraf */
+    text-align: center; /* Posisikan teks di tengah */
+}
+  
+.result-box strong {
+    font-weight: bold;        /* Teks tebal */
+}
+
 
 /* ==============================
    Gaya untuk Main (Tata Letak Utama)
