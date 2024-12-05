@@ -174,10 +174,10 @@ input::placeholder {
 }
   
 .result-box p {
-    font-size: 26px;          /* Ukuran teks */
+    font-size: 36px;          /* Ukuran teks */
     margin: 10px 0;           /* Jarak antar paragraf */
     text-align: center; /* Posisikan teks di tengah */
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
   
 .result-box strong {
@@ -207,6 +207,13 @@ article{
     background-color: aquamarine; /* Memberikan warna latar belakang aquamarine pada form */
 }
 
+#artikel-info {
+    font-size: 16px;        /* Ukuran font */
+    margin-top: 20px;       /* Jarak atas */
+    padding: 10px;          /* Padding */
+    background-color: #f4f4f4; /* Latar belakang cerah */
+    border-radius: 8px;     /* Sudut melengkung */
+}
 /* ==============================
    Gaya untuk Section (Bagian Formulir)
    ============================== */
