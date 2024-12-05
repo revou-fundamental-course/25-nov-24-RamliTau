@@ -10,6 +10,14 @@
     font-weight: bold; /* Tebalkan font */
 }
 
+.main-content {
+    background-color: white; /* Warna latar belakang putih untuk konten utama */
+    border-radius: 10px; /* Membuat sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan lembut */
+    padding: 20px; /* Ruang di dalam konten utama */
+}
+
+
 /* ==============================
    Gaya untuk Formulir Jenis Kelamin
    ============================== */
@@ -22,6 +30,7 @@
 .gender-options {
     display: flex; /* Menyusun elemen secara horizontal */
     gap: 10px; /* Memberikan jarak antar elemen */
+    margin-bottom: 10px; /* Tambahkan jarak*/
 }
 
 /* ==============================
@@ -67,6 +76,7 @@ form {
     font-size: 14px; /* Menentukan ukuran font */
     border: 1px solid black; /* Memberikan border abu-abu pada input */
     border-radius: 4px; /* Memberikan sudut tumpul pada input */
+    margin-bottom: 15px; /* Tambahkan jarak*/
 }
 
 /* Mengatur gaya placeholder */
