@@ -174,9 +174,10 @@ input::placeholder {
 }
   
 .result-box p {
-    font-size: 16px;          /* Ukuran teks */
+    font-size: 26px;          /* Ukuran teks */
     margin: 10px 0;           /* Jarak antar paragraf */
     text-align: center; /* Posisikan teks di tengah */
+    margin-bottom: 25px;
 }
   
 .result-box strong {
