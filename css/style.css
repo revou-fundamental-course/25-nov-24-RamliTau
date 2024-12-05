@@ -39,6 +39,17 @@ legend {
 /* ==============================
    Gaya untuk Label dan Input Formulir
    ============================== */
+
+/* Mengatur gaya kotak form */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Warna latar belakang yang lembut */
+    border-radius: 10px; /* Membuat sudut tumpul */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan efek bayangan */
+}
+
 .form-group label {
     display: block; /* Menyusun label dalam satu baris */
     margin-bottom: 5px; /* Memberikan jarak bawah antar label dan input */
@@ -57,6 +68,7 @@ legend {
    Gaya untuk Tombol Hitung dan Reset
    ============================== */
    .form-actions button {
+    margin-top: 20px; /* Tambahkan jarak di atas tombol */
     padding: 10px 15px; /* Memberikan padding pada tombol */
     font-size: 14px; /* Menentukan ukuran font pada tombol */
     border: none; /* Menghapus border tombol */
