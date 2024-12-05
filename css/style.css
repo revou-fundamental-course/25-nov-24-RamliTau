@@ -17,7 +17,6 @@
     padding: 20px; /* Ruang di dalam konten utama */
 }
 
-
 /* ==============================
    Gaya untuk Formulir Jenis Kelamin
    ============================== */
@@ -81,19 +80,16 @@ form {
 
 /* Gaya untuk baris input dengan gambar */
 .input-row {
-    display: flex; /* Gunakan Flexbox untuk membuat layout horizontal */
-    align-items: center; /* Posisikan gambar dan input sejajar secara vertikal */
-    margin-bottom: 15px; /* Jarak antar kolom */
-}
-
-/* Gaya untuk gambar kecil di sebelah kiri */
-.input-icon {
-    width: 40px; /* Ukuran lebar gambar */
-    height: 40px; /* Ukuran tinggi gambar */
-    margin-right: 10px; /* Jarak antara gambar dan input data */
-    border-radius: 50%; /* Opsional: membuat gambar berbentuk lingkaran */
-    object-fit: cover; /* Menjaga proporsi gambar */
-}
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Jarak antara ikon dan input */
+  }
+  
+  .input-icon {
+    width: 20px; /* Ukuran ikon bisa disesuaikan */
+    height: 20px; /* Menjaga proporsi ikon */
+    object-fit: contain; /* Memastikan ikon tetap proporsional */
+  }
 
 /* Gaya untuk kolom input */
 .input-column {
@@ -291,5 +287,56 @@ section {
 
     .result-box {
         width: 100%; /* Bagian hasil di bawah input data */
+    }
+}
+
+/* Gaya untuk layar lebar (desktop) */
+@media (min-width: 1024px) {
+    main {
+        flex-direction: row; /* Elemen disusun secara horizontal */
+        justify-content: space-evenly;
+    }
+
+    section {
+        width: 40%; /* Lebar section lebih kecil untuk desktop */
+    }
+}
+
+/* Gaya untuk tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    main {
+        flex-direction: column; /* Elemen disusun vertikal */
+        align-items: center;
+    }
+
+    section {
+        width: 80%; /* Lebar section diperbesar untuk tablet */
+        margin-bottom: 20px;
+    }
+}
+
+/* Gaya untuk ponsel (layar kecil) */
+@media (max-width: 767px) {
+    .main-header {
+        font-size: 18px; /* Ukuran teks header lebih kecil */
+        padding: 10px 0; /* Kurangi padding */
+    }
+
+    form {
+        width: 90%; /* Form mengisi hampir seluruh lebar layar */
+    }
+
+    .result-box {
+        width: 90%; /* Sesuaikan lebar kotak hasil */
+        margin: 0 auto; /* Pusatkan kotak hasil */
+    }
+
+    section {
+        width: 100%; /* Lebar section penuh */
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 12px; /* Ukuran teks footer lebih kecil */
     }
 }
