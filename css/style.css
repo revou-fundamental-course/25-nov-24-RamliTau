@@ -1,8 +1,13 @@
 /* ==============================
    Gaya untuk Header Utama
    ============================== */
-   .main-header{
-    text-align: center; /* Menyusun teks di tengah */
+.main-header {
+    background-color: orange; /* Warna latar oranye */
+    color: white; /* Warna teks putih */
+    text-align: center; /* Posisikan teks di tengah */
+    padding: 15px 0; /* Ruang di atas dan bawah */
+    font-size: 24px; /* Ukuran font */
+    font-weight: bold; /* Tebalkan font */
 }
 
 /* ==============================
@@ -130,6 +135,12 @@ section{
 /* ==============================
    Gaya untuk Footer
    ============================== */
-footer{
-    text-align: center; /* Menyusun teks footer di tengah */
+footer {
+    background-color: orange; /* Warna latar oranye */
+    color: white; /* Warna teks putih */
+    text-align: center; /* Teks di tengah */
+    padding: 15px 0; /* Ruang di atas dan bawah */
+    margin-top: 20px; /* Jarak antara konten dan footer */
+    font-size: 14px; /* Ukuran font */
+    font-weight: bold; /* Tebalkan font */
 }
