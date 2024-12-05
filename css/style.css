@@ -226,39 +226,6 @@ section{
 }
 
 
-/* Untuk orientasi lanskap */
-@media (orientation: landscape) {
-    main {
-        flex-direction: row; /* Elemen disusun horizontal */
-        justify-content: space-between;
-    }
-
-    section {
-        width: 45%; /* Input dan hasil berbagi ruang secara merata */
-    }
-
-    .result-box {
-        width: 45%; /* Bagian hasil juga disusun di sebelah kanan */
-        margin: 0; /* Hilangkan margin auto untuk menyesuaikan tata letak horizontal */
-    }
-}
-
-/* Untuk orientasi potret */
-@media (orientation: portrait) {
-    main {
-        flex-direction: column; /* Elemen disusun vertikal */
-    }
-
-    section {
-        width: 100%; /* Input dan hasil penuh layar */
-    }
-
-    .result-box {
-        width: 100%; /* Bagian hasil di bawah input data */
-    }
-}
-
-
 
 /* ==============================
    Gaya untuk Footer
@@ -293,4 +260,36 @@ section {
 .result-box {
     width: 100%; /* Default: lebar penuh */
     margin: 0 auto; /* Pusatkan */
+}
+
+/* Untuk orientasi lanskap */
+@media (orientation: landscape) {
+    main {
+        flex-direction: row; /* Elemen disusun horizontal */
+        justify-content: space-between;
+    }
+
+    section {
+        width: 45%; /* Input dan hasil berbagi ruang secara merata */
+    }
+
+    .result-box {
+        width: 45%; /* Bagian hasil juga disusun di sebelah kanan */
+        margin: 0; /* Hilangkan margin auto untuk menyesuaikan tata letak horizontal */
+    }
+}
+
+/* Untuk orientasi potret */
+@media (orientation: portrait) {
+    main {
+        flex-direction: column; /* Elemen disusun vertikal */
+    }
+
+    section {
+        width: 100%; /* Input dan hasil penuh layar */
+    }
+
+    .result-box {
+        width: 100%; /* Bagian hasil di bawah input data */
+    }
 }
