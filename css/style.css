@@ -79,6 +79,41 @@ form {
     margin-bottom: 15px; /* Tambahkan jarak*/
 }
 
+/* Gaya untuk baris input dengan gambar */
+.input-row {
+    display: flex; /* Gunakan Flexbox untuk membuat layout horizontal */
+    align-items: center; /* Posisikan gambar dan input sejajar secara vertikal */
+    margin-bottom: 15px; /* Jarak antar kolom */
+}
+
+/* Gaya untuk gambar kecil di sebelah kiri */
+.input-icon {
+    width: 40px; /* Ukuran lebar gambar */
+    height: 40px; /* Ukuran tinggi gambar */
+    margin-right: 10px; /* Jarak antara gambar dan input data */
+    border-radius: 50%; /* Opsional: membuat gambar berbentuk lingkaran */
+    object-fit: cover; /* Menjaga proporsi gambar */
+}
+
+/* Gaya untuk kolom input */
+.input-column {
+    flex-grow: 1; /* Memastikan input mengisi sisa ruang */
+}
+
+/* Gaya input dan label untuk rapi */
+.input-column label {
+    display: block; /* Pastikan label berada di atas input */
+    margin-bottom: 5px; /* Jarak antara label dan input */
+    font-weight: bold; /* Menonjolkan label */
+}
+
+.input-column input {
+    width: 100%; /* Input mengisi ruang kolom */
+    padding: 8px; /* Ruang di dalam input */
+    border: 1px solid #ccc; /* Border input */
+    border-radius: 5px; /* Sudut melengkung */
+}
+
 /* Mengatur gaya placeholder */
 input::placeholder {
     font-weight: normal; /* Mengurangi ketebalan tulisan */
