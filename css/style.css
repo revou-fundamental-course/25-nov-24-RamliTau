@@ -50,9 +50,9 @@ form {
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f9f9f9; /* Warna latar belakang yang lembut */
+    background-color: #dbd3d3; /* Warna latar belakang yang lembut */
     border-radius: 10px; /* Membuat sudut tumpul */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan efek bayangan */
+    box-shadow: 0 4px 8px rgba(233, 215, 215, 0.1); /* Menambahkan efek bayangan */
 }
 
 .form-group label {
@@ -65,8 +65,15 @@ form {
     width: 100%; /* Membuat input mengisi seluruh lebar */
     padding: 4px; /* Memberikan padding di dalam input */
     font-size: 14px; /* Menentukan ukuran font */
-    border: 1px solid #ccc; /* Memberikan border abu-abu pada input */
+    border: 1px solid black; /* Memberikan border abu-abu pada input */
     border-radius: 4px; /* Memberikan sudut tumpul pada input */
+}
+
+/* Mengatur gaya placeholder */
+input::placeholder {
+    font-weight: normal; /* Mengurangi ketebalan tulisan */
+    color: #888; /* Warna abu-abu untuk placeholder */
+    font-style: italic; /* Menambahkan gaya miring (opsional) */
 }
 
 /* ==============================
